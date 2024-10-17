@@ -3,18 +3,25 @@ This is a Monorepo project in development. The application will be a comments ma
 ## Getting Started
 
 ```sh
+# 0. Install dependencies
+$ npm install turbo --global and cd outline-challenge
+
 # 1. Install dependencies
 $ npm i
 
-# 2. Build required packages
-$ npm build
-
 # 3. Run all projects 'dev' task to start development servers
-$ turbo run dev
+$ turbo dev
 
-# 4. Run all tests 'test' task to start development servers
-$ turbo run dev
+# 4. To run all tests 'test' tasks
+$ turbo test
 ```
+
+### Troubleshooting
+
+- If you get an error related to npm not able to find a file in the cache
+  1. npm cache clean --force
+  2. Install node 18 or latest
+- Contact betompx@gmail.com for any other issue
 
 ### Folder Structure
 
@@ -30,7 +37,7 @@ $ turbo run dev
 ### Basic requirements
 
 - Your preferred IDE / Code Editor
-- NodeJS > 12
+- NodeJS >= 18
 - Your preferred browser (tested on Chrome and Firefox)
 
 ### Linting and formatting
