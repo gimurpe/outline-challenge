@@ -39,10 +39,10 @@ The linting and formatting is done using eslint and prettier, configured using c
 
 ### Core Features
 
-- This is a monorepo that handles three projcts: FE(web), Backend(api), Shared Models(packages)
+- This is a monorepo that handles three projects: FE(web), Backend(api), Shared Models(packages)
 - The list of comments uses virtualization and async fetching using TanStack Virtual and TanStack Query
 - There are hooks for each of the services used: auth and comments
 - The styles use emotion+styled-components with styled-system.
 - The styling is mobile-first meaning everything is written thinking on mobile compatibility and adjusted for desktop if needed
-- BEM was selected as the css writting style to make it cleaner and avoid cascading
+- BEM was selected as the css writting style to make it cleaner and avoid cascading: https://getbem.com/naming/
 - Both grid and flexbox were used
